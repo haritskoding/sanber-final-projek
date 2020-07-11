@@ -1,0 +1,25 @@
+npm install --save axios
+npm install bootstrap react-bootstrap
+npm install react-count-animation@latest
+npm install --save react-columns
+
+npm install moment --save 
+npm install jquery
+website belajaar
+
+	<a class="navbar-brand" href="#"><span>Lumino</span>Admin</a>
+
+					<span class="icon-bar"></span>
+
+                    	<div class="profile-userpic">
+				<img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
+			</div>
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">Username</div>
+				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
+			</div>
+
+<ul class="nav menu">
+            <li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+
+https://courses.codewithandrea.com/courses/flutter-rest-api-crash-course-build-a-coronavirus-tracking-app/lectures/16845797
