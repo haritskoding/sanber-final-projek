@@ -14,6 +14,7 @@ import './assets/css/styles.css';
 import HomeContent from './HomeContent';
 import Footer from './Footer';
 import MenuSidebar from "./MenuSidebar"
+import News from './News';
 
 
 // import './assets/js/jquery-1.11.1.min.js'
@@ -34,12 +35,16 @@ const routes = [
     },
     {
         path: '/bubblegum',
-        sidebar: () => <div>bubblegum!</div>,
-        main: () => <h2>Bubblegum</h2>,
+        sidebar: () => <div><h2>Error 404</h2></div>,
+        main: () => <h2>Menu Belum tersedia</h2>,
     },
     {
         path: '/app',
         main: () => <App menu="kabar dunia" />,
+    },
+    {
+        path: '/berita',
+        main: () => <News />,
     },
 ]
 
@@ -76,8 +81,9 @@ class SideBar extends Component {
                     <ul className="nav menu" style={{ position: 'relative' }} >
                         <li >< Link to='/'><em className="fa fa-dashboard">&nbsp;</em> Beranda</Link></li>
                         <li><Link to='/app'><em className="fa fa-calendar">&nbsp;</em>Kabar Korona</Link></li>
+                        <li ><Link to='/berita'><em className="fa fa-comments">&emsp;</em>Baca Berita</Link></li>
                         <li><Link to='bubblegum'><em className="fa fa-bar-chart">&nbsp;</em>Grafik Perkembangan</Link></li>
-                        <li ><Link to='/app'><em className="fa fa-comments">&emsp;</em>Sampaikan Pesan  anda ke pemerintah</Link></li>
+
                         <span></span>
                         {/* <li > <a href="login.html" ><em class="fa fa-power-off">&nbsp;</em> Logout</a>
                         </li> */}
